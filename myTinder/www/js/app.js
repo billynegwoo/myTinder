@@ -17,3 +17,21 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+    .controller('LoginController',function($scope, $http){
+      $scope.credentials = {
+          identifier : '',
+          password : ''
+      }
+      $scope.login = function(credentials){
+          $http({
+              method: 'POST',
+              data: credentials,
+              url: 'http://127.0.0.1:1337/auth/local'
+          }).then(function(response) {
+              if (response.data !== "fail"){
+                  console.log(response);
+              };
+          })
+      }
+
+    });

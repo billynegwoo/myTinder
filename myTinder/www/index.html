@@ -23,12 +23,39 @@
   </head>
   <body ng-app="starter">
 
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
+  <ion-side-menus>
+
+    <!-- Center content -->
+    <ion-side-menu-content>
+      <ion-header-bar class="bar-positive">
+        <h1 class="title">My Tinder</h1>
       </ion-header-bar>
       <ion-content>
+          <div class="list list-inset">
+          <form name="loginForm" ng-controller="LoginController"ng-submit="login(credentials)" novalidate>
+              <label class="item item-input" for="username">
+                  <span class="input-label">Username:</span>
+                  <input type="text" id="username" ng-model="credentials.identifier">
+              </label>
+
+              <label class="item item-input" for="password">
+                  <span class="input-label">Password:</span>
+                <input type="password" id="password" ng-model="credentials.password">
+              </label>
+              <button class="button button-block button-positive" type="submit">Login</button>
+          </form>
+              </div>
       </ion-content>
-    </ion-pane>
+    </ion-side-menu-content>
+
+    <!-- Left menu -->
+    <ion-side-menu side="left">
+      <ion-header-bar class="bar-dark">
+        <h1 class="title">Menu</h1>
+      </ion-header-bar>
+    </ion-side-menu>
+
+  </ion-side-menus>
+
   </body>
 </html>
