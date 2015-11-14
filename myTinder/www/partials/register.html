@@ -1,0 +1,26 @@
+<ion-header-bar class="bar-positive">
+    <div class="h1 title">My Tinder</div>
+</ion-header-bar>
+<ion-content>
+    <div class="list list-inset">
+        <form name="registerForm" ng-controller="RegisterController" ng-submit="register(credentials)" novalidate>
+
+            <label class="item item-input" for="username">
+                <span class="input-label">Username:</span>
+                <input type="text" id="username" ng-model="credentials.username">
+            </label>
+
+            <label class="item item-input" for="email">
+                <span class="input-label">Email:</span>
+                <input type="text" id="email" ng-model="credentials.email">
+            </label>
+
+            <label class="item item-input" for="password">
+                <span class="input-label">Password:</span>
+                <input type="password" id="password" ng-model="credentials.password">
+            </label>
+            <button class="button button-block button-positive" type="submit">Register</button>
+        </form>
+        <a href="#/">Login</a>
+    </div>
+</ion-content>

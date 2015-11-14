@@ -1,0 +1,45 @@
+
+<ion-side-menus>
+    <!-- Left menu -->
+    <ion-side-menu side="left">
+        <ion-header-bar class="bar-positive">
+            <div class="h1 title">Menu</div>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                <ion-item>
+                    My profile
+                </ion-item>
+                <ion-item>
+                    Trashed
+                </ion-item>
+                <ion-item>
+                    Saved
+                </ion-item>
+                <ion-item>
+                    Log out
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+    <ion-side-menu-content>
+        <ion-header-bar class="bar-positive">
+            <button class="button icon ion-navicon" menu-toggle="left"></button>
+            <div class="h1 title">My Tinder</div>
+        </ion-header-bar>
+        <td-cards>
+            <td-card id="td-card" ng-repeat="card in cards" on-destroy="cardDestroyed($index)"
+                     on-swipe-left="cardSwipedLeft($index,card.id)" on-swipe-right="cardSwipedRight($index,card.id)"
+                     on-partial-swipe="cardPartialSwipe(amt)">
+                <div class="title">
+                    {{card.username}}
+                </div>
+                <div class="image">
+                    <div class="no-text overlayBox"><div class="noBox boxed">Trash</div></div>
+                    <img ng-src="{{card.path}}">
+                    <div class="yes-text overlayBox"><div class="yesBox boxed" id="centerMe">Save</div></div>
+                </div>
+            </td-card>
+        </td-cards>
+    </ion-side-menu-content>
+</ion-side-menus>

@@ -2,98 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc9d3038-5f8d-4f93-a799-52da1bef9cfe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/controllers/AuthController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/models/Passport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/models/User.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/policies/bearerAuth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/policies/passport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/services/passport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/services/protocols/bearer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/services/protocols/cas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/services/protocols/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/services/protocols/local.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/services/protocols/oauth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/services/protocols/oauth2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/api/services/protocols/openid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/config/passport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/views/auth/login.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/views/auth/register.ejs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APImyTinder/api/models/Users.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/.editorconfig" afterPath="$PROJECT_DIR$/API/.editorconfig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/.gitignore" afterPath="$PROJECT_DIR$/API/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/.sailsrc" afterPath="$PROJECT_DIR$/API/.sailsrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/Gruntfile.js" afterPath="$PROJECT_DIR$/API/Gruntfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/README.md" afterPath="$PROJECT_DIR$/API/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/api/controllers/.gitkeep" afterPath="$PROJECT_DIR$/API/assets/templates/.gitkeep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/api/controllers/UsersController.js" afterPath="$PROJECT_DIR$/API/api/controllers/UserController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/api/models/.gitkeep" afterPath="$PROJECT_DIR$/API/assets/images/.gitkeep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/api/policies/sessionAuth.js" afterPath="$PROJECT_DIR$/API/api/policies/sessionAuth.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/api/responses/badRequest.js" afterPath="$PROJECT_DIR$/API/api/responses/badRequest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/api/responses/forbidden.js" afterPath="$PROJECT_DIR$/API/api/responses/forbidden.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/api/responses/notFound.js" afterPath="$PROJECT_DIR$/API/api/responses/notFound.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/api/responses/ok.js" afterPath="$PROJECT_DIR$/API/api/responses/ok.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/api/responses/serverError.js" afterPath="$PROJECT_DIR$/API/api/responses/serverError.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/api/services/.gitkeep" afterPath="$PROJECT_DIR$/API/api/services/.gitkeep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/app.js" afterPath="$PROJECT_DIR$/API/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/assets/favicon.ico" afterPath="$PROJECT_DIR$/API/assets/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/assets/images/.gitkeep" afterPath="$PROJECT_DIR$/API/api/models/.gitkeep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/assets/js/dependencies/sails.io.js" afterPath="$PROJECT_DIR$/API/assets/js/dependencies/sails.io.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/assets/robots.txt" afterPath="$PROJECT_DIR$/API/assets/robots.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/assets/styles/importer.less" afterPath="$PROJECT_DIR$/API/assets/styles/importer.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/assets/templates/.gitkeep" afterPath="$PROJECT_DIR$/API/api/controllers/.gitkeep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/blueprints.js" afterPath="$PROJECT_DIR$/API/config/blueprints.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/bootstrap.js" afterPath="$PROJECT_DIR$/API/config/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/connections.js" afterPath="$PROJECT_DIR$/API/config/connections.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/cors.js" afterPath="$PROJECT_DIR$/API/config/cors.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/csrf.js" afterPath="$PROJECT_DIR$/API/config/csrf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/env/development.js" afterPath="$PROJECT_DIR$/API/config/env/development.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/env/production.js" afterPath="$PROJECT_DIR$/API/config/env/production.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/globals.js" afterPath="$PROJECT_DIR$/API/config/globals.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/http.js" afterPath="$PROJECT_DIR$/API/config/http.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/i18n.js" afterPath="$PROJECT_DIR$/API/config/i18n.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/locales/_README.md" afterPath="$PROJECT_DIR$/API/config/locales/_README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/locales/de.json" afterPath="$PROJECT_DIR$/API/config/locales/de.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/locales/en.json" afterPath="$PROJECT_DIR$/API/config/locales/en.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/locales/es.json" afterPath="$PROJECT_DIR$/API/config/locales/es.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/locales/fr.json" afterPath="$PROJECT_DIR$/API/config/locales/fr.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/log.js" afterPath="$PROJECT_DIR$/API/config/log.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/models.js" afterPath="$PROJECT_DIR$/API/config/models.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/policies.js" afterPath="$PROJECT_DIR$/API/config/policies.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/routes.js" afterPath="$PROJECT_DIR$/API/config/routes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/session.js" afterPath="$PROJECT_DIR$/API/config/session.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/sockets.js" afterPath="$PROJECT_DIR$/API/config/sockets.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/config/views.js" afterPath="$PROJECT_DIR$/API/config/views.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/package.json" afterPath="$PROJECT_DIR$/API/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/README.md" afterPath="$PROJECT_DIR$/API/tasks/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/clean.js" afterPath="$PROJECT_DIR$/API/tasks/config/clean.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/coffee.js" afterPath="$PROJECT_DIR$/API/tasks/config/coffee.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/concat.js" afterPath="$PROJECT_DIR$/API/tasks/config/concat.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/copy.js" afterPath="$PROJECT_DIR$/API/tasks/config/copy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/cssmin.js" afterPath="$PROJECT_DIR$/API/tasks/config/cssmin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/jst.js" afterPath="$PROJECT_DIR$/API/tasks/config/jst.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/less.js" afterPath="$PROJECT_DIR$/API/tasks/config/less.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/sails-linker.js" afterPath="$PROJECT_DIR$/API/tasks/config/sails-linker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/sync.js" afterPath="$PROJECT_DIR$/API/tasks/config/sync.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/uglify.js" afterPath="$PROJECT_DIR$/API/tasks/config/uglify.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/config/watch.js" afterPath="$PROJECT_DIR$/API/tasks/config/watch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/pipeline.js" afterPath="$PROJECT_DIR$/API/tasks/pipeline.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/register/build.js" afterPath="$PROJECT_DIR$/API/tasks/register/build.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/register/buildProd.js" afterPath="$PROJECT_DIR$/API/tasks/register/buildProd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/register/compileAssets.js" afterPath="$PROJECT_DIR$/API/tasks/register/compileAssets.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/register/default.js" afterPath="$PROJECT_DIR$/API/tasks/register/default.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/register/linkAssets.js" afterPath="$PROJECT_DIR$/API/tasks/register/linkAssets.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/register/linkAssetsBuild.js" afterPath="$PROJECT_DIR$/API/tasks/register/linkAssetsBuild.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/register/linkAssetsBuildProd.js" afterPath="$PROJECT_DIR$/API/tasks/register/linkAssetsBuildProd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/register/prod.js" afterPath="$PROJECT_DIR$/API/tasks/register/prod.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/tasks/register/syncAssets.js" afterPath="$PROJECT_DIR$/API/tasks/register/syncAssets.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/views/403.ejs" afterPath="$PROJECT_DIR$/API/views/403.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/views/404.ejs" afterPath="$PROJECT_DIR$/API/views/404.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/views/500.ejs" afterPath="$PROJECT_DIR$/API/views/500.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/views/homepage.ejs" afterPath="$PROJECT_DIR$/API/views/homepage.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/APImyTinder/views/layout.ejs" afterPath="$PROJECT_DIR$/API/views/layout.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myTinder/www/partials/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myTinder/www/partials/register.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/js/angular-ui/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/js/angular/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/js/angular/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/js/angular/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/js/angular/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/js/angular/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/js/angular/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/js/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/js/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myTinder/www/lib/ionic/version.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/api/controllers/AuthController.js" afterPath="$PROJECT_DIR$/API/api/controllers/AuthController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/api/models/User.js" afterPath="$PROJECT_DIR$/API/api/models/User.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/config/routes.js" afterPath="$PROJECT_DIR$/API/config/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myTinder/bower.json" afterPath="$PROJECT_DIR$/myTinder/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myTinder/config.xml" afterPath="$PROJECT_DIR$/myTinder/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myTinder/www/css/style.css" afterPath="$PROJECT_DIR$/myTinder/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myTinder/www/index.html" afterPath="$PROJECT_DIR$/myTinder/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myTinder/www/js/app.js" afterPath="$PROJECT_DIR$/myTinder/www/js/app.js" />
     </list>
@@ -111,17 +40,48 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - mytinder@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - mytinder@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="passport" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="myTinder" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myTinder/www/index.html">
+      <file leaf-file-name="FileController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/api/controllers/FileController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8055556">
-              <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,6 +89,66 @@
       </file>
       <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/api/models/User.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="53" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/api/models/File.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Passport.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/api/models/Passport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User_save.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/api/models/User_save.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.7647057">
+              <caret line="12" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User_trash.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API/api/models/User_trash.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.506135">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/api/controllers/AuthController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User_saveController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/api/controllers/User_saveController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -147,68 +167,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connections.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/config/connections.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/config/models.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Passport.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/api/models/Passport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myTinder/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="passport.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/config/passport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/api/controllers/AuthController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/config/local.js">
+      <file leaf-file-name="User_trashController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/api/controllers/User_trashController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -218,6 +178,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
@@ -268,15 +235,30 @@
         <option value="$PROJECT_DIR$/APImytinder/config/policies.js" />
         <option value="$PROJECT_DIR$/APImytinder/api/controllers/AuthController.js" />
         <option value="$PROJECT_DIR$/API/config/bootstrap.js" />
-        <option value="$PROJECT_DIR$/API/config/routes.js" />
         <option value="$PROJECT_DIR$/API/config/cors.js" />
         <option value="$PROJECT_DIR$/API/config/policies.js" />
         <option value="$PROJECT_DIR$/API/config/passport.js" />
         <option value="$PROJECT_DIR$/API/config/connections.js" />
         <option value="$PROJECT_DIR$/API/config/models.js" />
+        <option value="$PROJECT_DIR$/myTinder/www/home.html" />
+        <option value="$PROJECT_DIR$/myTinder/bower.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8960b859-84e5-4ae0-a152-1aba015d57eb/console.sql" />
+        <option value="$PROJECT_DIR$/myTinder/www/register.html" />
+        <option value="$PROJECT_DIR$/API/config/routes.js" />
         <option value="$PROJECT_DIR$/API/api/controllers/AuthController.js" />
+        <option value="$PROJECT_DIR$/myTinder/www/partials/login.html" />
+        <option value="$PROJECT_DIR$/myTinder/www/partials/register.html" />
+        <option value="$PROJECT_DIR$/API/api/models/Passport.js" />
+        <option value="$PROJECT_DIR$/API/api/models/File.js" />
+        <option value="$PROJECT_DIR$/API/api/models/User.js" />
+        <option value="$PROJECT_DIR$/myTinder/www/css/style.css" />
+        <option value="$PROJECT_DIR$/API/api/controllers/FileController.js" />
+        <option value="$PROJECT_DIR$/myTinder/config.xml" />
+        <option value="$PROJECT_DIR$/myTinder/www/partials/home.html" />
         <option value="$PROJECT_DIR$/myTinder/www/js/app.js" />
         <option value="$PROJECT_DIR$/myTinder/www/index.html" />
+        <option value="$PROJECT_DIR$/API/api/models/User_save.js" />
+        <option value="$PROJECT_DIR$/API/api/models/User_trash.js" />
       </list>
     </option>
   </component>
@@ -380,6 +362,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic-ion-tinder-cards" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -402,7 +432,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,6 +491,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,6 +606,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\NodeJS\node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\myTinder\myTinder\www\partials" />
+      <recent name="C:\wamp\www\myTinder\myTinder\www" />
+      <recent name="C:\wamp\www\myTinder\myTinder\www\lib\ionic" />
+      <recent name="C:\wamp\www\myTinder\myTinder\www\js\partials" />
+    </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
@@ -846,28 +951,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18649517" sideWeight="0.49507734" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49358287" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20744081" sideWeight="0.5064171" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20744081" sideWeight="0.49358287" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1982851" sideWeight="0.49507734" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49358287" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20744081" sideWeight="0.5064171" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14415863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22773394" sideWeight="0.49358287" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17326203" sideWeight="0.5049226" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3452116" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33821872" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3452116" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33821872" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -888,67 +994,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myTinder/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/api/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/api/controllers/UserController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/config/connections.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/config/models.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/api/models/Passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myTinder/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="9" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,10 +1145,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/config/routes.js">
+    <entry file="file://$PROJECT_DIR$/API/config/local.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/config/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/config/connections.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/config/models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTinder/www/lib/angular-route/angular-route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTinder/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTinder/node_modules/bower/lib/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/fcb5b93/8960b859-84e5-4ae0-a152-1aba015d57eb/mytinder.user">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTinder/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8960b859-84e5-4ae0-a152-1aba015d57eb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056234717">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1118,14 +1227,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/API/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/API/config/policies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="34" />
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/config/local.js">
+    <entry file="file://$PROJECT_DIR$/myTinder/www/partials/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTinder/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTinder/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTinder/www/partials/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTinder/www/partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTinder/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTinder/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.548387">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/api/controllers/User_saveController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1133,15 +1304,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/config/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/api/models/Passport.js">
+    <entry file="file://$PROJECT_DIR$/API/api/controllers/User_trashController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1149,10 +1312,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/api/models/User.js">
+    <entry file="file://$PROJECT_DIR$/API/api/controllers/FileController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/api/controllers/AuthController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1165,42 +1336,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/config/connections.js">
+    <entry file="file://$PROJECT_DIR$/API/api/models/User.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="13" />
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/config/models.js">
+    <entry file="file://$PROJECT_DIR$/API/api/models/File.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/api/controllers/AuthController.js">
+    <entry file="file://$PROJECT_DIR$/API/api/models/Passport.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myTinder/www/js/app.js">
+    <entry file="file://$PROJECT_DIR$/API/api/models/User_save.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state vertical-scroll-proportion="-7.7647057">
+          <caret line="12" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myTinder/www/index.html">
+    <entry file="file://$PROJECT_DIR$/API/api/models/User_trash.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8055556">
-          <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.506135">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
