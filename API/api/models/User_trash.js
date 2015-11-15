@@ -5,11 +5,12 @@
  * @docs        :: http://sailsjs.org/#!documentation/models
  */
 
-module.exports = {
-
+var User_trashed = {
+    schema: true,
     attributes: {
         user_id:{ type: 'integer'},
-        user_id_saved:{ type: 'integer'}
+        user_id_trashed:{ type: 'integer'}
     }
 };
+module.exports = User_trashed;
 
