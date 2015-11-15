@@ -20,7 +20,10 @@ td-card {
     font-size: 15px;
     padding: 15px;
 }
-
+.item-divider{
+    position: relative;
+    top: 16em;
+}
 td-card .image {
     position: absolute;
     top: 40px;

@@ -7,7 +7,7 @@
         </ion-header-bar>
         <ion-content>
             <ion-list>
-                <ion-item>
+                <ion-item ng-click="profile()">
                     My profile
                 </ion-item>
                 <ion-item ng-click="trashed()">
@@ -35,11 +35,19 @@
                     <div class="title">
                         {{card.username}}
                     </div>
-                    <div class="image">
+                    <div class="image item item-image">
                         <div class="no-text overlayBox"><div class="noBox boxed">Trash</div></div>
                         <img ng-src="{{card.path}}">
                         <div class="yes-text overlayBox"><div class="yesBox boxed" id="centerMe">Save</div></div>
                     </div>
+                <div class="item item-divider">
+                    <div class="row">
+                        <button class="col col-33 button button-assertive"
+                                ng-click="cardSwipedLeft($index,card.id);cardDestroyed($index)">Trash</button>
+                        <button class="col col-33 col-offset-33 button button-balanced"
+                                ng-click="cardSwipedRight($index,card.id);cardDestroyed($index)">Save</button>
+                    </div>
+                </div>
             </td-card>
         </td-cards>
     </ion-side-menu-content>

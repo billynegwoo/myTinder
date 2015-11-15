@@ -129,7 +129,9 @@ app = angular.module('myTinder', ['ionic','ngRoute','ionic.contrib.ui.tinderCard
         $scope.trashed = function(){
             return $window.location  = '#/trashed';
         };
-
+        $scope.profile = function(){
+            return $window.location  = '#/profile';
+        };
         $scope.saved = function(){
             return $window.location  = '#/saved';
         };
@@ -169,7 +171,9 @@ app = angular.module('myTinder', ['ionic','ngRoute','ionic.contrib.ui.tinderCard
 
     .controller('TrashController', function($scope, $http, $window, saved, trashed , user){
         trashed.setTrashed();
-
+        $scope.profile = function(){
+            return $window.location  = '#/profile';
+        };
         $scope.trashed = function(){
             return $window.location  = '#/trashed';
         };
@@ -203,7 +207,9 @@ app = angular.module('myTinder', ['ionic','ngRoute','ionic.contrib.ui.tinderCard
 
     .controller('SaveController', function($scope, $http, $window, saved, trashed , user){
         saved.setSaved();
-
+        $scope.profile = function(){
+            return $window.location  = '#/profile';
+        };
         $scope.trashed = function(){
             return $window.location  = '#/trashed';
         };
@@ -231,6 +237,49 @@ app = angular.module('myTinder', ['ionic','ngRoute','ionic.contrib.ui.tinderCard
                 });
             }
         });
+    })
+    .controller('ProfileController', function($scope,$window,user){
+        $scope.profile = function(){
+            return $window.location  = '#/profile';
+        };
+        $scope.trashed = function(){
+            return $window.location  = '#/trashed';
+        };
+
+        $scope.saved = function(){
+            return $window.location  = '#/saved';
+        };
+        $scope.logout = function(){
+            return $window.location  = '#/';
+        };
+        $scope.home = function(){
+            return $window.location  = '#/home';
+        };
+        $scope.user = user.getUser();
+
+
+        $scope.setFiles = function(element) {
+            $scope.$apply(function($scope) {
+                console.log('files:', element.files);
+                // Turn the FileList object into an Array
+                $scope.files = []
+                for (var i = 0; i < element.files.length; i++) {
+                    $scope.files.push(element.files[i])
+                }
+                $scope.progressVisible = false
+            });
+        };
+
+        $scope.uploadFile = function() {
+            var fd = new FormData()
+            for (var i in $scope.files) {
+                fd.append("uploadedFile", $scope.files[i])
+            }
+            var xhr = new XMLHttpRequest()
+            xhr.open("POST", "http://192.168.0.28:1337/upload");
+            xhr.send(fd)
+        }
+
     });
 
 app.service('user', function(){

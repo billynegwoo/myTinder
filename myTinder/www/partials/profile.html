@@ -1,4 +1,3 @@
-
 <ion-side-menus>
     <!-- Left menu -->
     <ion-side-menu side="left">
@@ -28,11 +27,17 @@
             <div class="h1 title" ng-click="home()">My Tinder</div>
         </ion-header-bar>
         <ion-content>
-            <ul class="list">
-                <li class="item" ng-repeat="user in trashedUsers">
-                    {{user}}
-                </li>
-            </ul>
+            <div class="list card">
+                <div class="item">
+                    <p>{{user.username}}</p>
+                </div>
+                <div class="item item-image">
+                    <img ng-src="{{user.path}}">
+                </div>
+            </div>
+            <input type="file" id="file" name="file"/>
+            <br>
+            <button ng-click="uploadFile()">Add</button>
         </ion-content>
     </ion-side-menu-content>
 </ion-side-menus>
